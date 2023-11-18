@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .seializers import *
+from .seializers import MealSerializer, RatingSerializer
 from .models import meal, rating
 from rest_framework import viewsets
 class MealViewset(viewsets.ModelViewSet):
